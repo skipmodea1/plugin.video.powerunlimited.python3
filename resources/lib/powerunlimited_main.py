@@ -33,7 +33,6 @@ class Main(object):
         parameters = {"action": "list", "plugin_category": LANGUAGE(30000),
                       "url": "http://www.pu.nl/media/?page=001", "next_page_possible": "True"}
         url = self.plugin_url + '?' + urllib.parse.urlencode(parameters)
-        thumbnail_url = os.path.join(IMAGES_PATH, 'next-page.png')
         list_item = xbmcgui.ListItem(LANGUAGE(30000))
         is_folder = True
         list_item.setArt({'thumb': 'DefaultFolder.png', 'icon': 'DefaultFolder.png',
