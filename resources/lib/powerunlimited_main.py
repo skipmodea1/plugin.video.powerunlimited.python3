@@ -13,7 +13,7 @@ import xbmcgui
 import xbmcplugin
 import os
 
-from powerunlimited_const import LANGUAGE, IMAGES_PATH
+from resources.lib.powerunlimited_const import LANGUAGE, IMAGES_PATH
 
 
 #

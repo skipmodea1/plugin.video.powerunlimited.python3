@@ -8,7 +8,7 @@ from future import standard_library
 standard_library.install_aliases()
 from builtins import str
 from builtins import object
-from powerunlimited_const import LANGUAGE, HEADERS, convertToUnicodeString, log, getSoup
+from resources.lib.powerunlimited_const import LANGUAGE, HEADERS, convertToUnicodeString, log, getSoup
 import re
 import sys
 import urllib.request, urllib.parse, urllib.error
