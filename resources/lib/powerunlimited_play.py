@@ -8,7 +8,6 @@ from future import standard_library
 standard_library.install_aliases()
 from builtins import str
 from builtins import object
-from resources.lib.powerunlimited_const import LANGUAGE, HEADERS, convertToUnicodeString, log, getSoup
 import re
 import sys
 import urllib.request, urllib.parse, urllib.error
@@ -17,6 +16,7 @@ import xbmcgui
 import xbmcplugin
 import requests
 
+from resources.lib.powerunlimited_const import LANGUAGE, HEADERS, convertToUnicodeString, log, getSoup
 
 #
 # Main class
