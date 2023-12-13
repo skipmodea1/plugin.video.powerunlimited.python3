@@ -163,3 +163,9 @@ pip-log.txt
 .DS_Store
 
 *.pyo
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/plugin.video.powerunlimited.iml
+.idea/vcs.xml
+.idea/workspace.xml
